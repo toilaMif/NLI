@@ -83,6 +83,71 @@ Dataset statistics:
 | Final NLI sentence pairs | 6,717 |
 | Labels | `contradiction`, `entailment`, `neutral` |
 
+## Visualizations
+
+The notebooks include exploratory charts, preprocessing comparisons, embedding visualizations, and model evaluation figures. The main figures were extracted to `assets/notebook-images/` so they can be viewed directly in this README.
+
+### Dataset Overview
+
+<table>
+  <tr>
+    <td align="center"><b>NLI Label Distribution</b></td>
+    <td align="center"><b>Premise Length Distribution</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/notebook-images/analysis-data-01-cell-4.png" alt="NLI label distribution" width="390"></td>
+    <td><img src="assets/notebook-images/analysis-data-02-cell-7.png" alt="Premise length distribution" width="390"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Sentence Length Comparison</b></td>
+    <td align="center"><b>Top Frequent Words</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/notebook-images/analysis-data-03-cell-8.png" alt="Sentence length comparison" width="390"></td>
+    <td><img src="assets/notebook-images/analysis-data-04-cell-10.png" alt="Top frequent words" width="390"></td>
+  </tr>
+</table>
+
+### Text and Embedding Analysis
+
+<table>
+  <tr>
+    <td align="center"><b>WordCloud of Premise Sentences</b></td>
+    <td align="center"><b>t-SNE Sentence Embeddings</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/notebook-images/analysis-data-05-cell-11.png" alt="WordCloud of premise sentences" width="390"></td>
+    <td><img src="assets/notebook-images/analysis-data-08-cell-17.png" alt="t-SNE sentence embedding visualization" width="390"></td>
+  </tr>
+</table>
+
+### Preprocessing and Tokenization
+
+<table>
+  <tr>
+    <td align="center"><b>Premise Length Before/After Processing</b></td>
+    <td align="center"><b>Hypothesis Length Before/After Processing</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/notebook-images/data-processing-01-cell-38.png" alt="Premise length before and after preprocessing" width="390"></td>
+    <td><img src="assets/notebook-images/data-processing-02-cell-39.png" alt="Hypothesis length before and after preprocessing" width="390"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Token WordCloud</b></td>
+    <td align="center"><b>Vocabulary Frequency</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/notebook-images/embedding-01-cell-45.png" alt="Token wordcloud" width="390"></td>
+    <td><img src="assets/notebook-images/model-nlp-tk1-03-cell-56.png" alt="Vocabulary frequency chart" width="390"></td>
+  </tr>
+</table>
+
+### Model Evaluation
+
+<p align="center">
+  <img src="assets/notebook-images/model-nlp-tk1-06-cell-128.png" alt="NLI model confusion matrix" width="520">
+</p>
+
 ## Detailed Workflow
 
 ### 1. Exploratory Data Analysis
@@ -227,6 +292,15 @@ predict_nli(
 
 ```text
 .
+|-- assets/
+|   `-- notebook-images/
+|       |-- analysis-data-01-cell-4.png
+|       |-- analysis-data-05-cell-11.png
+|       |-- analysis-data-08-cell-17.png
+|       |-- model-nlp-tk1-06-cell-128.png
+|       `-- manifest.json
+|-- scripts/
+|   `-- extract_notebook_images.py
 |-- analysis-data.ipynb
 |-- data-processing.ipynb
 |-- embedding.ipynb
@@ -312,6 +386,7 @@ After running the notebooks, expected outputs include:
 - Test loss and test accuracy.
 - Confusion matrix.
 - Direct prediction examples.
+- Extracted notebook figures in `assets/notebook-images/`.
 
 ## Highlights
 
@@ -321,6 +396,7 @@ After running the notebooks, expected outputs include:
 - Handles Vietnamese date expressions and historical named entities.
 - Compares Vietnamese tokenization approaches.
 - Uses CBOW-style embeddings and BiLSTM attention for NLI classification.
+- README includes extracted notebook figures for a more visual project overview.
 - Includes presentation material in `Báo cáo.pptx`.
 
 ## Current Limitations

@@ -1,0 +1,92 @@
+[
+  {
+    "notebook": "analysis-data.ipynb",
+    "cell": 4,
+    "image": "assets/notebook-images/analysis-data-01-cell-4.png"
+  },
+  {
+    "notebook": "analysis-data.ipynb",
+    "cell": 7,
+    "image": "assets/notebook-images/analysis-data-02-cell-7.png"
+  },
+  {
+    "notebook": "analysis-data.ipynb",
+    "cell": 8,
+    "image": "assets/notebook-images/analysis-data-03-cell-8.png"
+  },
+  {
+    "notebook": "analysis-data.ipynb",
+    "cell": 10,
+    "image": "assets/notebook-images/analysis-data-04-cell-10.png"
+  },
+  {
+    "notebook": "analysis-data.ipynb",
+    "cell": 11,
+    "image": "assets/notebook-images/analysis-data-05-cell-11.png"
+  },
+  {
+    "notebook": "analysis-data.ipynb",
+    "cell": 13,
+    "image": "assets/notebook-images/analysis-data-06-cell-13.png"
+  },
+  {
+    "notebook": "analysis-data.ipynb",
+    "cell": 15,
+    "image": "assets/notebook-images/analysis-data-07-cell-15.png"
+  },
+  {
+    "notebook": "analysis-data.ipynb",
+    "cell": 17,
+    "image": "assets/notebook-images/analysis-data-08-cell-17.png"
+  },
+  {
+    "notebook": "data-processing.ipynb",
+    "cell": 38,
+    "image": "assets/notebook-images/data-processing-01-cell-38.png"
+  },
+  {
+    "notebook": "data-processing.ipynb",
+    "cell": 39,
+    "image": "assets/notebook-images/data-processing-02-cell-39.png"
+  },
+  {
+    "notebook": "data-processing.ipynb",
+    "cell": 40,
+    "image": "assets/notebook-images/data-processing-03-cell-40.png"
+  },
+  {
+    "notebook": "embedding.ipynb",
+    "cell": 45,
+    "image": "assets/notebook-images/embedding-01-cell-45.png"
+  },
+  {
+    "notebook": "model-nlp-tk1.ipynb",
+    "cell": 35,
+    "image": "assets/notebook-images/model-nlp-tk1-01-cell-35.png"
+  },
+  {
+    "notebook": "model-nlp-tk1.ipynb",
+    "cell": 38,
+    "image": "assets/notebook-images/model-nlp-tk1-02-cell-38.png"
+  },
+  {
+    "notebook": "model-nlp-tk1.ipynb",
+    "cell": 56,
+    "image": "assets/notebook-images/model-nlp-tk1-03-cell-56.png"
+  },
+  {
+    "notebook": "model-nlp-tk1.ipynb",
+    "cell": 60,
+    "image": "assets/notebook-images/model-nlp-tk1-04-cell-60.png"
+  },
+  {
+    "notebook": "model-nlp-tk1.ipynb",
+    "cell": 85,
+    "image": "assets/notebook-images/model-nlp-tk1-05-cell-85.png"
+  },
+  {
+    "notebook": "model-nlp-tk1.ipynb",
+    "cell": 128,
+    "image": "assets/notebook-images/model-nlp-tk1-06-cell-128.png"
+  }
+]
